@@ -1,7 +1,7 @@
 # Fast Flags i know of
 I will add what i think the fast flags are doing + games you can ue them in. (Nearly all of the fast flags are physics related and modify what your character does, serversided or clientsided)
 
-If you want to find some exploitable fast flags yourself then you can search them yourself [here](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt) (big thanks to maximum adhd for this)
+If you want to find some exploitable fast flags yourself then you can search them yourself [here](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt) (big thanks to maximum adhd for this, the best things to search for are things like Humanoid, Velocity, HipHeight, PGS, Render, Debug and nearly anything thats a FInt)
 
 If you want to test how much you can glitch out stuff, then just use very high/low numbers for Integer values (the highest/lowest values possible: -2147483648, 2147483648)
 
