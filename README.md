@@ -19,7 +19,7 @@ Default: 16
 
 `{"DFIntMaxMissedWorldStepsRemembered":1}`
 
-Don't know in which games you can use this in
+Games: AbilityWars (Buff, Tree, Hive, Alchemist and Mushroom give you the ability to punch everyone while you are at 0,0,0)
 
 ## Client Simulation Radius
 Sets your clients simulation radius ( as far as i know )
