@@ -11,7 +11,7 @@ Default: Unknown
 
 `{"DFIntGameNetPVHeaderTranslationZeroCutoffExponent": 10}`
 
-Games: Ability Wars, BIG Paintball, Blade ball
+Games: Ability Wars (Buff, Tree, Hive, Alchemist and Mushroom give you the ability to punch everyone while you are at 0,0,0), BIG Paintball, Blade ball 
 
 ## Physics Slowdown
 This fast flag sets the current physics "FPS", this slows down all the physics related stuff aka falling, walking
@@ -19,7 +19,6 @@ Default: 16
 
 `{"DFIntMaxMissedWorldStepsRemembered":1}`
 
-Games: AbilityWars (Buff, Tree, Hive, Alchemist and Mushroom give you the ability to punch everyone while you are at 0,0,0)
 
 ## Client Simulation Radius
 Sets your clients simulation radius ( as far as i know )
