@@ -49,9 +49,16 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 
 Games: any game (obbys are easier to do with slow Physics)
 
+## Good Anti KB
+This combination works with every game that uses Ragdolls (the Anti KB is always active). You can change the NewtonIts Flag to stop being stuck on walls or objects (anything below 0 Crashes your game)
 
+`{
+  "DFIntDebugSimPrimalPreconditionerMinExp": "1",
+  "DFIntDebugSimPrimalNewtonIts": "2",
+  "DFIntDebugSimPrimalWarmstartForce": "-100",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-100",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalPreconditioner": "1"
+}`
 
-
-## FFlags where i don't rlly know what they do: 
-
-`{"DFIntDefaultBalanceD":2147483648,"DFIntDefaultBalanceP":2147483648}`
