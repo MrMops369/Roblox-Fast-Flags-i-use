@@ -71,6 +71,7 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
 
 ## Disable Bloom
 This disables all neon effects
+
 `{
 "FIntBloomFrmCutoff":"1654515",
 "FFlagRenderNoLowFrmBloom":"True"
