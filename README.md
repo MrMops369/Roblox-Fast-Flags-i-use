@@ -62,3 +62,22 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
   "DFIntDebugSimPrimalPreconditioner": "1"
 }`
 
+## Disable others animations (Clientsided)
+
+`{
+"FFlagProcessAnimationLooped":"False",
+"FFlagReplicateAnimationLooped":"False"
+}`
+
+## Disable Bloom
+This disables all neon effects
+`{
+"FIntBloomFrmCutoff":"1654515",
+"FFlagRenderNoLowFrmBloom":"True"
+}`
+
+## Speed up particle emitters
+
+`{
+"FFlagDebugDeterministicParticles":"True"
+}`
