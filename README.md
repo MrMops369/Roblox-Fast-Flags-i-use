@@ -131,9 +131,11 @@ Only a gui. You don't get kicked from the game, but you can't move because of th
 ```
 ## Change the Layered Clothing deform Limit
 The changes are only clientsided. When you set it to the (positive) signed 32 bit integer Limit (2147483647), then you can create really large Clothing combinations. 
-All deformations are disabled when put to a low value
+All deformations are disabled when put to a low value. The check dimension flag and check max cage dist are needed for this to work.
 ```Json
 {
+  "DFFlagCheckMaxCageDistance":"False",
+  "FFlagLCCheckCageDimensions":"False",
   "DFIntLCCageDeformLimit":"2147483647"
 }
 ```
