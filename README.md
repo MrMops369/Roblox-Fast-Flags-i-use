@@ -129,3 +129,11 @@ Only a gui. You don't get kicked from the game, but you can't move because of th
   "FFlagDebugEnableErrorStringTesting":"True"
 }
 ```
+## Change the Layered Clothing deform Limit
+The changes are only clientsided. When you set it to the (positive) signed 32 bit integer Limit (2147483647), then you can create really large Clothing combinations. 
+All deformations are disabled when put to a low value
+```Json
+{
+  "DFIntLCCageDeformLimit":"2147483647"
+}
+```
