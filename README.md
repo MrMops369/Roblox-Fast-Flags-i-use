@@ -139,3 +139,9 @@ All deformations are disabled when put to a low value. The check dimension flag 
   "DFIntLCCageDeformLimit":"2147483647"
 }
 ```
+## Crash all CoreGui scripts
+Won't let the game load your core gui. Resets the seasonal quests in Blade Ball
+```Json
+{
+  "FFlagFFlagLogAllGuacRead":"True"
+}
