@@ -76,7 +76,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 
 Games: any game (obbys are easier to do with slow Physics)
 
-## Good Anti KB
+## Good Anti KB (Doesn't work anymore)
 This combination works with every game that uses Ragdolls (the Anti KB is always active). You can change the NewtonIts Flag to stop being stuck on walls or objects (anything below 0 Crashes your game)
 
 ```Json
@@ -151,5 +151,12 @@ Makes you unable to open Roblox (The Value must be 26778 for games to load)
 ```Json
 {
   "DFIntWriterInputCheckLength":"1"
+}
+```
+## Dev Console Logging
+Changes how long a Message can be, doesn't give you the ability to exceed the 16k Message Length Limit
+```Json
+{
+  "FIntStandardOutputMaximumCharacterLength":"1"
 }
 ```
