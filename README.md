@@ -140,8 +140,16 @@ All deformations are disabled when put to a low value. The check dimension flag 
 }
 ```
 ## Crash all CoreGui scripts
-Won't let the game load your core gui. Resets the seasonal quests in Blade Ball
+Won't let the game load your core gui. Resets the seasonal quests in Blade Ball (or not idk)
 ```Json
 {
   "FFlagFFlagLogAllGuacRead":"True"
 }
+```
+## No more Roblox
+Makes you unable to open Roblox (The Value must be 26778 for games to load)
+```Json
+{
+  "DFIntWriterInputCheckLength":"1"
+}
+```
