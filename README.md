@@ -160,3 +160,10 @@ Changes how long a Message can be, doesn't give you the ability to exceed the 16
   "FIntStandardOutputMaximumCharacterLength":"1"
 }
 ```
+## No more highlights
+Stops all highlights from rendering.
+```Json
+{
+  "DFFlagRenderHighlightManagerPrepare":"True"
+}
+```
