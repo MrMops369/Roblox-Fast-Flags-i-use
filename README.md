@@ -64,7 +64,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 Games: Blade ball (at high values even the anti fling can't do anything -> ball can't kill you unless you don't parry it within like 40 secs or so)
 
 ## Active Physics FPS Change
-Go into settings  and change your FPS to 240 (if you can reach that amount of FPS) and you will have full Physics speed, at 30 fps its around 7,5/s. Any Part you have network Ownershipship over is also slowed down, as well as shot projectiles.
+Go into settings  and change your FPS to 240 (if you can reach that amount of FPS) and you will have full Physics speed, at 30 fps its around 7,5/s. Any Part you have network Ownership over is also slowed down, as well as shot projectiles.
 
 ```Json
 {
