@@ -167,3 +167,10 @@ Stops all highlights from rendering.
   "DFFlagRenderHighlightManagerPrepare":"True"
 }
 ```
+## Lag remote events periodically
+Does what it says, 0 and 2147483647 don't let you load games.
+```Json
+{
+  "FIntRakNetResendBufferArrayLength":"1"
+}
+```
